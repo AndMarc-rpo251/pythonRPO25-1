@@ -10,8 +10,8 @@ def main():
 
 
 def search_data():
-    cpu_count = psutil.cpu_count(logical=False)      # физические ядра
-    logical_count = psutil.cpu_count(logical=True)   # логические процессоры
+    cpu_count = psutil.cpu_count(logical=False)      
+    logical_count = psutil.cpu_count(logical=True)  
 
     cpu_usage = psutil.cpu_percent(interval=1)
 
